@@ -35,8 +35,6 @@ public class DemoApplication {
         // Exibindo livros disponíveis e livros emprestados após a devolução
         biblioteca.exibirLivrosDisponiveis();
         usuario.exibirLivrosEmprestados();
-		
-		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
